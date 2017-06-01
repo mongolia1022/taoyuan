@@ -3,7 +3,7 @@
 define('DB_HOSTNAME','localhost');
 define('DB_USER','root');
 define('DB_PASSWORD','root');
-define('DB_DBNAME','doccms');
+define('DB_DBNAME','taoyuan');
 define('TB_PREFIX','doc_');
 //模板配置字段
 define('WEBOPEN',true);
@@ -17,7 +17,7 @@ define('SITESUMMARY','Foshan Fotiles');
 define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
-define('STYLENAME','titu');      //PC 模板
+define('STYLENAME','taoyuan');      //PC 模板
 define('MOBILENAME','mobile');      //移动模板
 define('URLREWRITE',true);
 define('CACHETIME','0');
