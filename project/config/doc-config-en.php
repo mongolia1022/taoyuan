@@ -11,9 +11,9 @@ define('WEBSIZE','500');
 define('WEBSIZECOUNTS','53');
 define('WEBURL','');    //PC 域名
 define('MOBILEURL','');  //移动域名
-define('SITENAME','Foshan Fotiles');
-define('SITEKEYWORDS','Foshan Fotiles');
-define('SITESUMMARY','Foshan Fotiles');
+define('SITENAME','taoyuan');
+define('SITEKEYWORDS','taoyuan');
+define('SITESUMMARY','taoyuan');
 define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');

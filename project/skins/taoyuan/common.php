@@ -34,7 +34,7 @@
             <div class="top_link_in">
                 <label>Welcome to Taoyuan aluminum</label>
                 <span>&#xe67f; Tel: 400-888-8888  +86-757-88888888</span>
-                <div class="top_link_in_pro"><img src="images/top_pro.png" width="180" height="236" /></div>
+                <div class="top_link_in_pro"><img src="<?php echo $tag['path.skin']; ?>images/top_pro.png" width="180" height="236" /></div>
             </div>
         </div>
     </div>
@@ -105,7 +105,7 @@
                         </div>
                         <div class="left_list">
                             <ul>
-                                <?php nav_sub(24); ?>
+                                <?php nav_sub(1); ?>
                                 <div class="clear"></div>
                             </ul>
                         </div>
@@ -115,9 +115,9 @@
                         </div>
                         <div class="left_list">
                             <ul>
-                                <li><a href="<?php echo sys_href(30) ?>"><?php echo sys_menu_info('title',false,30)?></a></li>
-                                <li><a href="<?php echo sys_href(29) ?>"><?php echo sys_menu_info('title',false,29)?></a></li>
-                                <li><a href="<?php echo sys_href(27) ?>"><?php echo sys_menu_info('title',false,27)?></a></li>
+                                <li><a href="<?php echo sys_href(6) ?>"><?php echo sys_menu_info('title',false,6)?></a></li>
+                                <li><a href="<?php echo sys_href(3) ?>"><?php echo sys_menu_info('title',false,3)?></a></li>
+                                <li><a href="<?php echo sys_href(7) ?>"><?php echo sys_menu_info('title',false,7)?></a></li>
                                 <div class="clear"></div>
                             </ul>
                         </div>
@@ -141,49 +141,48 @@
 
     <!-- 底部 -->
     <div class="bottom_t"></div>
-    <div class="bottom_b">
-        <div class="bottom_b_in">
-            <div class="bottom_l">
-                <ul>
+<div class="bottom_b">
+	<div class="bottom_b_in">
+    	<div class="bottom_l">
+        	<ul>
             	<li class="first">Products recommend</li>
-				<?php doc_focus('3',5,1,0,0,true,'id',0)?>
+				<?php doc_focus('2',5,1,0,0,true,'id',0)?>
                 <div class="clear"></div>
             </ul>
         	<ul>
             	<li class="first">Company introduction</li>
-            	<?php doc_focus('4',5,1,0,0,true,'id',0)?>
+            	<?php doc_focus('3',5,1,0,0,true,'id',0)?>
                 <div class="clear"></div>
             </ul>
         	<ul>
             	<li class="first">Legal Info</li>
-            	<?php doc_focus('5',5,1,0,0,true,'id',0)?>
+            	<?php doc_focus('4',5,1,0,0,true,'id',0)?>
                 <div class="clear"></div>
             </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="bottom_m">
-                <div class="bottom_m">
-                    <div class="bottom_m_t">Socialize With Us!</div>
-                    <div class="bottom_m_m">
-                        <ul>
-                            <li><a href="#"><img src="images/ct1.png" width="24" height="24" /></a></li>
-                            <li><a href="#"><img src="images/ct2.png" width="24" height="24" /></a></li>
-                            <li><a href="#"><img src="images/ct3.png" width="24" height="24" /></a></li>
-                            <li><a href="#"><img src="images/ct4.png" width="24" height="24" /></a></li>
-                            <li><a href="#"><img src="images/ct5.png" width="24" height="24" /></a></li>
-                        </ul>
-                    </div>
-                    <div class="bottom_m_b"><?php doc_article('39',10,0,0,0,0,true,true,'id',0)?></div>
-                </div>
-            </div>
-            <div class="bottom_qr">
-                <?php doc_focus('6',1,2,0,0,true,'id',0)?>
-                <span class="iconfont">&#xe6c4; Mobile website</span>
-            </div>
-            <div class="clear"></div>
+			<div class="clear"></div>
         </div>
+        <div class="bottom_m">
+        	<div class="bottom_m">
+            	<div class="bottom_m_t">Socialize With Us!</div>
+            	<div class="bottom_m_m">
+                	<ul>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24" /></a></li>
+                    </ul>
+                </div>
+                <div class="bottom_m_b"><?php doc_article('11',10,0,0,0,0,true,true,'id',0)?></div>
+            </div>
+        </div>
+        <div class="bottom_qr">
+			<?php doc_focus('5',1,2,0,0,true,'id',0)?>
+            <span class="iconfont">&#xe6c4; Mobile website</span>
+        </div>
+		<div class="clear"></div>
     </div>
-
+</div>
 
 </body>
 </html>

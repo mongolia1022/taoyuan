@@ -108,7 +108,7 @@
     <div class="idx_about_l"><img src="<?php echo $tag['path.skin']; ?>images/idx_about_pic.jpg" width="558" height="340" /></div>
     <div class="idx_about_r">
     	<div class="idx_about_r_t"><img src="<?php echo $tag['path.skin']; ?>images/idx_about_av.png" width="499" height="99" /></div>
-        <div class="idx_about_r_b"><?php doc_article('32',0,0,0,0,0,true,true,'id',0)?></div>
+        <div class="idx_about_r_b"><?php doc_article('9',0,0,0,0,0,true,true,'id',0)?></div>
     </div>
     <div class="clear"></div>
 </div>
@@ -116,7 +116,7 @@
 <!-- 首页产品列表 -->
 <div class="idx_pro">
 	<ul>
-        <?php doc_product('37',6,0,0,0,0,true,false,'id',0)?>
+        <?php doc_product('10',6,0,0,0,0,true,false,'id',0)?>
         <div class="clear"></div>
     </ul>
 </div>
@@ -128,17 +128,17 @@
     	<div class="bottom_l">
         	<ul>
             	<li class="first">Products recommend</li>
-				<?php doc_focus('3',5,1,0,0,true,'id',0)?>
+				<?php doc_focus('2',5,1,0,0,true,'id',0)?>
                 <div class="clear"></div>
             </ul>
         	<ul>
             	<li class="first">Company introduction</li>
-            	<?php doc_focus('4',5,1,0,0,true,'id',0)?>
+            	<?php doc_focus('3',5,1,0,0,true,'id',0)?>
                 <div class="clear"></div>
             </ul>
         	<ul>
             	<li class="first">Legal Info</li>
-            	<?php doc_focus('5',5,1,0,0,true,'id',0)?>
+            	<?php doc_focus('4',5,1,0,0,true,'id',0)?>
                 <div class="clear"></div>
             </ul>
 			<div class="clear"></div>
@@ -148,18 +148,18 @@
             	<div class="bottom_m_t">Socialize With Us!</div>
             	<div class="bottom_m_m">
                 	<ul>
-                    	<li><a href="#"><img src="images/ct1.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="images/ct2.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="images/ct3.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="images/ct4.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="images/ct5.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24" /></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24" /></a></li>
                     </ul>
                 </div>
-                <div class="bottom_m_b"><?php doc_article('39',10,0,0,0,0,true,true,'id',0)?></div>
+                <div class="bottom_m_b"><?php doc_article('11',10,0,0,0,0,true,true,'id',0)?></div>
             </div>
         </div>
         <div class="bottom_qr">
-			<?php doc_focus('6',1,2,0,0,true,'id',0)?>
+			<?php doc_focus('5',1,2,0,0,true,'id',0)?>
             <span class="iconfont">&#xe6c4; Mobile website</span>
         </div>
 		<div class="clear"></div>
