@@ -17,7 +17,7 @@ define('SITESUMMARY','');
 define('HTMLPATH','/html');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
-define('STYLENAME','titu');      //PC 模板
+define('STYLENAME','taoyuan');      //PC 模板
 define('MOBILENAME','mobile');      //移动模板
 define('URLREWRITE',true);
 define('CACHETIME','0');
