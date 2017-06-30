@@ -1,9 +1,9 @@
 <?php
 //数据库配置字段
 define('DB_HOSTNAME','localhost');
-define('DB_USER','root');
-define('DB_PASSWORD','root');
-define('DB_DBNAME','taoyuan');
+define('DB_USER','fstaoyuan');
+define('DB_PASSWORD','fstao808');
+define('DB_DBNAME','fstaoyuan');
 define('TB_PREFIX','doc_');
 //模板配置字段
 define('WEBOPEN',true);
@@ -11,15 +11,15 @@ define('WEBSIZE','500');
 define('WEBSIZECOUNTS','53');
 define('WEBURL','');    //PC 域名
 define('MOBILEURL','');  //移动域名
-define('SITENAME','稻壳企业建站系统[DocCms X1.0]2016正式版');
-define('SITEKEYWORDS','123');
+define('SITENAME','桃园');
+define('SITEKEYWORDS','桃园');
 define('SITESUMMARY','');
-define('HTMLPATH','/html');
+define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
-define('STYLENAME','taoyuan');      //PC 模板
-define('MOBILENAME','mobile');      //移动模板
-define('URLREWRITE',true);
+define('STYLENAME','taoyuan_cn');      //PC 模板
+define('MOBILENAME','taoyuan_cn');      //移动模板
+define('URLREWRITE',false);
 define('CACHETIME','0');
 define('DOCPING',false);
 //评论审核

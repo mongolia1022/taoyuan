@@ -30,7 +30,8 @@
 	<div class="top_link_in iconfont">
     	<div class="top_link_in">
         	<label>Welcome to Taoyuan aluminum</label>
-        	<span>&#xe67f; Tel: 400-888-8888  +86-757-88888888</span>
+        	<span>&#xe67f; Tel: 400-888-8888  +86-757-88888888　<a href="###" class="not">CN</a> <font color="#666666">/</font> <a href="###">EN</a> </span>
+            
             <div class="top_link_in_pro"><img src="images/top_pro.png" width="180" height="236" /></div>
         </div>
     </div>
@@ -100,11 +101,24 @@
 	<div class="idx_about_t"></div>
     <div class="ct_r">
     	<ul>
-        	<li><a href="#"><img src="images/ct1.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="images/ct2.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="images/ct3.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="images/ct4.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="images/ct5.png" width="24" height="24" /></a></li>
+        	<li>
+            	<a href="#"><img src="images/ct1.png" width="42" height="42" /></a>
+                <div class="ct_qr">二维码放这里</div>
+            </li>
+        	<li><a href="#"><img src="images/ct2.png" width="42" height="42" /></a></li>
+        	<li><a href="#"><img src="images/ct3.png" width="42" height="42" /></a></li>
+        	<li><a href="#"><img src="images/ct4.png" width="42" height="42" /></a></li>
+        	<li><a href="#"><img src="images/ct5.png" width="42" height="42" /></a></li>
+            <script>
+            	$(function(){
+					$('.ct_r ul li').mouseover(function(){
+						$(this).children('.ct_qr').css('display','block');	
+					});	
+					$('.ct_r ul li').mouseleave(function(){
+						$(this).children('.ct_qr').css('display','none');	
+					});	
+				});
+            </script>
         </ul>
     </div>
     <div class="idx_about_title"></div>
@@ -212,11 +226,24 @@
             	<div class="bottom_m_t">Socialize With Us!</div>
             	<div class="bottom_m_m">
                 	<ul>
-                    	<li><a href="#"><img src="images/ct1.png" width="24" height="24" /></a></li>
+                    	<li>
+                        	<a href="#"><img src="images/ct1.png" width="24" height="24" /></a>
+                            <div class="ct_qr">二维码放这里</div>
+                        </li>
                     	<li><a href="#"><img src="images/ct2.png" width="24" height="24" /></a></li>
                     	<li><a href="#"><img src="images/ct3.png" width="24" height="24" /></a></li>
                     	<li><a href="#"><img src="images/ct4.png" width="24" height="24" /></a></li>
                     	<li><a href="#"><img src="images/ct5.png" width="24" height="24" /></a></li>
+                        <script>
+							$(function(){
+								$('.bottom_m_m ul li').mouseover(function(){
+									$(this).children('.ct_qr').css('display','block');	
+								});	
+								$('.bottom_m_m ul li').mouseleave(function(){
+									$(this).children('.ct_qr').css('display','none');	
+								});	
+							});
+						</script>
                     </ul>
                 </div>
                 <div class="bottom_m_b">2017, Aluminium Co., Ltd.<br/>All Rights Reserved</div>

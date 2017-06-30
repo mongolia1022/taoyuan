@@ -249,11 +249,24 @@
             	<div class="bottom_m_t">Socialize With Us!</div>
             	<div class="bottom_m_m">
                 	<ul>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24" /></a></li>
+                    	<li>
+                        	<a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24"></a>
+                            <div class="ct_qr"><img src="<?php echo $tag['path.skin']; ?>images/qr_idx.jpg" width="100%" height="100%" /></div>
+                        </li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24"></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24"></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24"></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24"></a></li>
+                        <script>
+							$(function(){
+								$('.bottom_m_m ul li').mouseover(function(){
+									$(this).children('.ct_qr').css('display','block');	
+								});	
+								$('.bottom_m_m ul li').mouseleave(function(){
+									$(this).children('.ct_qr').css('display','none');	
+								});	
+							});
+						</script>
                     </ul>
                 </div>
                 <div class="bottom_m_b"><?php doc_article('11',10,0,0,0,0,true,true,'id',0)?></div>

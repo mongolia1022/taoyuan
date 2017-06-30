@@ -33,7 +33,7 @@
 	<div class="top_link_in iconfont">
     	<div class="top_link_in">
         	<label>Welcome to Taoyuan aluminum</label>
-        	<span>&#xe67f; Tel: 400-888-8888  +86-757-88888888</span>
+			<span>&#xe67f; Tel: 400-888-8888  +86-757-88888888　<a href="/?lang=cn" class="not">CN</a> <font color="#666666">/</font> <a href="/?lang=en">EN</a> </span>
             <div class="top_link_in_pro"><img src="<?php echo $tag['path.skin']; ?>images/top_pro.png" width="180" height="236" /></div>
         </div>
     </div>
@@ -62,13 +62,23 @@
                 <?php nav_main()?>
             </ul>
         </div>
+		<script>
+					$(function(){
+						$('.nav_in ul li').mouseover(function(){
+							$(this).children('ul').stop(true,true).slideDown(200);	
+						})	
+						$('.nav_in ul li').mouseleave(function(){
+							$(this).children('ul').stop(true,true).slideUp(200);	
+						})	
+					})
+				</script>
     </div>
 </div>
 
 <!-- Swiper -->
 <div class="swiper-container swiper1" style="height:518px;">
     <div class="swiper-wrapper">
-        <?php doc_focus('1',3,0,0,0,true,'id',0)?>
+        <?php doc_focus('1',3,0,0,0,true,'ordering',0)?>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination swiper-pagination-white"></div>
@@ -97,11 +107,24 @@
 	<div class="idx_about_t"></div>
     <div class="ct_r">
     	<ul>
-        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24" /></a></li>
-        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24" /></a></li>
+        	<li>
+            	<a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="42" height="42" /></a>
+                <div class="ct_qr"><img src="<?php echo $tag['path.skin']; ?>images/qr_idx.jpg" width="100%" height="100%" /></div>
+            </li>
+        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="42" height="42" /></a></li>
+        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="42" height="42" /></a></li>
+        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="42" height="42" /></a></li>
+        	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="42" height="42" /></a></li>
+            <script>
+            	$(function(){
+					$('.ct_r ul li').mouseover(function(){
+						$(this).children('.ct_qr').css('display','block');	
+					});	
+					$('.ct_r ul li').mouseleave(function(){
+						$(this).children('.ct_qr').css('display','none');	
+					});	
+				});
+            </script>
         </ul>
     </div>
     <div class="idx_about_title"></div>
@@ -146,13 +169,26 @@
         <div class="bottom_m">
         	<div class="bottom_m">
             	<div class="bottom_m_t">Socialize With Us!</div>
-            	<div class="bottom_m_m">
+				<div class="bottom_m_m">
                 	<ul>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24" /></a></li>
-                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24" /></a></li>
+                    	<li>
+                        	<a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct1.png" width="24" height="24"></a>
+                            <div class="ct_qr"><img src="<?php echo $tag['path.skin']; ?>images/qr_idx.jpg" width="100%" height="100%" /></div>
+                        </li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct2.png" width="24" height="24"></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct3.png" width="24" height="24"></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct4.png" width="24" height="24"></a></li>
+                    	<li><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/ct5.png" width="24" height="24"></a></li>
+                        <script>
+							$(function(){
+								$('.bottom_m_m ul li').mouseover(function(){
+									$(this).children('.ct_qr').css('display','block');	
+								});	
+								$('.bottom_m_m ul li').mouseleave(function(){
+									$(this).children('.ct_qr').css('display','none');	
+								});	
+							});
+						</script>
                     </ul>
                 </div>
                 <div class="bottom_m_b"><?php doc_article('11',10,0,0,0,0,true,true,'id',0)?></div>

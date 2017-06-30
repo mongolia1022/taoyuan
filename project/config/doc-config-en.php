@@ -1,9 +1,9 @@
 <?php
 //数据库配置字段
 define('DB_HOSTNAME','localhost');
-define('DB_USER','root');
-define('DB_PASSWORD','root');
-define('DB_DBNAME','taoyuan');
+define('DB_USER','fstaoyuan');
+define('DB_PASSWORD','fstao808');
+define('DB_DBNAME','fstaoyuan');
 define('TB_PREFIX','doc_');
 //模板配置字段
 define('WEBOPEN',true);
@@ -19,7 +19,7 @@ define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
 define('STYLENAME','taoyuan');      //PC 模板
 define('MOBILENAME','mobile');      //移动模板
-define('URLREWRITE',true);
+define('URLREWRITE',false);
 define('CACHETIME','0');
 define('DOCPING',false);
 //评论审核
@@ -50,8 +50,8 @@ define('articleWidth','140');
 define('articleHight','105');
 define('listWidth','140');
 define('listHight','105');
-define('productWidth','140');
-define('productHight','105');
+define('productWidth','360');
+define('productHight','360');
 define('pictureWidth','140');
 define('pictureHight','105');
 //列表模块页缩略图大小设置
@@ -61,8 +61,8 @@ define('moduleUserHight','120');
 /*上传图片的大小设置*/
 define('productMiddlePicWidth','560');
 define('productMiddlePicHight','420');
-define('productSmallPicWidth','300');
-define('productSmallPicHight','225');
+define('productSmallPicWidth','360');
+define('productSmallPicHight','360');
 define('pictureMiddlePicWidth','560');
 define('pictureMiddlePicHight','420');
 define('pictureSmallPicWidth','300');

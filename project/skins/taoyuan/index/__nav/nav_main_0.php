@@ -23,4 +23,9 @@ $target = $data['isTarget']?$target:'';
 ?>
 <li> 
   <a href="<?php echo $url?>" <?php echo $target?> <?php echo $select?>><?php echo $data['title'];?></a>
+  <?php if($data['id']==3){?>
+    <ul>
+    <?php nav_sub($data['id'])?>
+    </ul>
+  <?}?>
 </li>
