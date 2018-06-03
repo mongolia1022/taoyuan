@@ -33,7 +33,7 @@
 	<div class="top_link_in iconfont">
     	<div class="top_link_in">
         	<label>欢迎来到桃园铝业有限公司</label>
-        	<span>&#xe67f; 电话: 400-888-8888  +86-757-88888888　<a href="/?lang=cn" class="not">中文</a> <font color="#666666">/</font> <a href="/?lang=en">EN</a> </span>
+        	<span>&#xe67f; 电话: 86 18022395098 传真+86 0757 85590178　<a href="/?lang=cn" class="not">中文</a> <font color="#666666">/</font> <a href="/?lang=en">EN</a> </span>
             <div class="top_link_in_pro"><img src="<?php echo $tag['path.skin']; ?>images/top_pro.png" width="180" height="236" /></div>
         </div>
     </div>
